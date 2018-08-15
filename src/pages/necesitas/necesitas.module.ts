@@ -10,4 +10,6 @@ import { NecesitasPage } from './necesitas';
     IonicPageModule.forChild(NecesitasPage),
   ],
 })
+
+
 export class NecesitasPageModule {}
