@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar color="primary">
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Registro</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-label floating >Nombre</ion-label>
+    <ion-input type="text" ></ion-input>
+  </ion-item>
+
+  <ion-item>
+      <ion-label floating >Apellido</ion-label>
+      <ion-input type="text" ></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label floating >E-mail</ion-label>
+        <ion-input type="text" ></ion-input>
+      </ion-item>
+
+  <ion-item>
+    <ion-label floating >Contraseña</ion-label>
+    <ion-input type="password" ></ion-input>
+  </ion-item>
+
+  <ion-item>
+      <ion-label floating >Confirmar Contraseña</ion-label>
+      <ion-input type="password" ></ion-input>
+    </ion-item>
+
+  <div padding>
+    <button ion-button block (click)="regin()" >Registrar</button>
+  </div>
+</ion-content>
+
