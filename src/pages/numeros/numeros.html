@@ -5,12 +5,55 @@
       <button ion-button menuToggle>
           <ion-icon name="menu"></ion-icon>
         </button>
-    <ion-title>numeros</ion-title>
+    <ion-title>Contactos de emergencia</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding class="bg">
+    <ion-list >
+        <ion-item class="item item-trns">
+          <ion-thumbnail item-start>
+            <img src="../assets/imgs/policia.png" alt="" width="" height="">
+          </ion-thumbnail>
+          <h2>Policía Nacional</h2>
+          <p>112</p>
+          <button ion-button clear item-end><ion-icon name="call"></ion-icon></button>
+        </ion-item>
+        <ion-item class="item item-trns">
+            <ion-thumbnail item-start>
+                <img src="../assets/imgs/bombero.png" alt="" width="" height="">
+            </ion-thumbnail>
+            <h2>Bomberos</h2>
+            <p>119</p>
+            <button ion-button clear item-end><ion-icon name="call"></ion-icon></button>
+          </ion-item>
+          <ion-item class="item item-trns">
+              <ion-thumbnail item-start>
+                  <img src="../assets/imgs/defensa.png" alt="" width="" height="">
+              </ion-thumbnail>
+              <h2>Defensa cívil</h2>
+              <p>144</p>
+              <button ion-button clear item-end><ion-icon name="call"></ion-icon></button>
+            </ion-item>
+            <ion-item class="item item-trns">
+                <ion-thumbnail item-start>
+                    <img src="../assets/imgs/emergencia.png" alt="" width="" height="">
+                </ion-thumbnail>
+                <h2>Línea de emergencia</h2>
+                <p>123</p>
+                <a href="tel:123"><ion-icon name="call"></ion-icon></a>
+                <button ion-button clear item-end><a href="tel:123"><ion-icon name="call"></ion-icon></a></button>
+              </ion-item>
+              <ion-item class="item item-trns">
+                  <ion-thumbnail item-start>
+                      <img src="../assets/imgs/emergencia.png" alt="" width="" height="">
+                  </ion-thumbnail>
+                  <h2>Cruz roja</h2>
+                  <p>132</p>
+                  <button ion-button clear item-end><ion-icon name="call"></ion-icon></button>
+                </ion-item>
+      </ion-list>
 
 </ion-content>
