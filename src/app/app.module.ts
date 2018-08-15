@@ -1,23 +1,31 @@
-import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { MyApp } from './app.component';
-
-import { AboutPage } from '../pages/about/about';
-import { ContactPage } from '../pages/contact/contact';
-import { HomePage } from '../pages/home/home';
-import { TabsPage } from '../pages/tabs/tabs';
-
-import { StatusBar } from '@ionic-native/status-bar';
+import { ErrorHandler, NgModule } from '@angular/core';
+import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { StatusBar } from '@ionic-native/status-bar';
+
+import { MyApp } from './app.component';
+import {InicioPage} from '../pages/inicio/inicio';
+import { NecesitasPage } from '../pages/necesitas/necesitas';
+import { CentroPage } from '../pages/centro/centro';
+import { PreguntasPage } from '../pages/preguntas/preguntas';
+import { CuadrantePage } from '../pages/cuadrante/cuadrante';
+import { NumerosPage } from '../pages/numeros/numeros';
+import { LoginPage } from '../pages/login/login';
+import { RegistroPage } from '../pages/registro/registro';
+
 
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
-    ContactPage,
-    HomePage,
-    TabsPage
+    InicioPage,
+    NecesitasPage,
+    CentroPage,
+    PreguntasPage,
+    CuadrantePage,
+    NumerosPage,
+    LoginPage,
+    RegistroPage
   ],
   imports: [
     BrowserModule,
@@ -26,10 +34,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
-    ContactPage,
-    HomePage,
-    TabsPage
+    InicioPage,
+    NecesitasPage,
+    CentroPage,
+    PreguntasPage,
+    CuadrantePage,
+    NumerosPage,
+    LoginPage,
+    RegistroPage
   ],
   providers: [
     StatusBar,
